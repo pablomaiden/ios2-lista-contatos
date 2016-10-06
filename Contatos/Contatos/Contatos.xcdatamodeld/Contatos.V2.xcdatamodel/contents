@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="16A323" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Contato" representedClassName="Contato" syncable="YES">
+        <attribute name="endereco" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nome" attributeType="String" syncable="YES"/>
+        <attribute name="sobrenome" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Contato" positionX="-63" positionY="-18" width="128" height="90"/>
+    </elements>
+</model>

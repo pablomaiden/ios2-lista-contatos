@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2927101B1D949736007BCAB2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2927101A1D949736007BCAB2 /* MapKit.framework */; };
+		2927101D1D9498A5007BCAB2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2927101C1D9498A5007BCAB2 /* CoreLocation.framework */; };
+		296D789C1D822330009B3726 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 296D789B1D822330009B3726 /* NewViewController.m */; };
+		296D789F1D822A57009B3726 /* UIViewController+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 296D789E1D822A57009B3726 /* UIViewController+CoreData.m */; };
+		2996577E1D6FB4A7004FF11E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2996577D1D6FB4A7004FF11E /* main.m */; };
+		299657811D6FB4A7004FF11E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 299657801D6FB4A7004FF11E /* AppDelegate.m */; };
+		299657871D6FB4A7004FF11E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 299657861D6FB4A7004FF11E /* MasterViewController.m */; };
+		2996578A1D6FB4A7004FF11E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 299657891D6FB4A7004FF11E /* DetailViewController.m */; };
+		2996578D1D6FB4A7004FF11E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2996578B1D6FB4A7004FF11E /* Main.storyboard */; };
+		2996578F1D6FB4A7004FF11E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2996578E1D6FB4A7004FF11E /* Assets.xcassets */; };
+		299657921D6FB4A7004FF11E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299657901D6FB4A7004FF11E /* LaunchScreen.storyboard */; };
+		299E55D71D9DD34100D1BDF4 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 299E55D61D9DD34100D1BDF4 /* Address.m */; };
+		29BF62B91D94390C00D53893 /* Contatos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29BF62B71D94390C00D53893 /* Contatos.xcdatamodeld */; };
+		29D949E41D78EE3B005152AB /* Contato+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D949E11D78EE3B005152AB /* Contato+CoreDataProperties.m */; };
+		29D949E51D78EE3B005152AB /* Contato.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D949E31D78EE3B005152AB /* Contato.m */; };
+		29D949E91D7904D5005152AB /* NSManagedObjectContext+DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D949E81D7904D5005152AB /* NSManagedObjectContext+DAO.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2927101A1D949736007BCAB2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2927101C1D9498A5007BCAB2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2927101E1D94AE2C007BCAB2 /* Contatos.V2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contatos.V2.xcdatamodel; sourceTree = "<group>"; };
+		296D789A1D822330009B3726 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		296D789B1D822330009B3726 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		296D789D1D822A57009B3726 /* UIViewController+CoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CoreData.h"; sourceTree = "<group>"; };
+		296D789E1D822A57009B3726 /* UIViewController+CoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CoreData.m"; sourceTree = "<group>"; };
+		299657791D6FB4A7004FF11E /* Contatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contatos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2996577D1D6FB4A7004FF11E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2996577F1D6FB4A7004FF11E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		299657801D6FB4A7004FF11E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		299657851D6FB4A7004FF11E /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		299657861D6FB4A7004FF11E /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		299657881D6FB4A7004FF11E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		299657891D6FB4A7004FF11E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2996578C1D6FB4A7004FF11E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2996578E1D6FB4A7004FF11E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		299657911D6FB4A7004FF11E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		299657931D6FB4A7004FF11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		299E55D51D9DD34100D1BDF4 /* Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Address.h; sourceTree = "<group>"; };
+		299E55D61D9DD34100D1BDF4 /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Address.m; sourceTree = "<group>"; };
+		29BF62B81D94390C00D53893 /* Contatos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contatos.xcdatamodel; sourceTree = "<group>"; };
+		29D949E01D78EE3B005152AB /* Contato+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Contato+CoreDataProperties.h"; path = "Modelos/Contato+CoreDataProperties.h"; sourceTree = "<group>"; };
+		29D949E11D78EE3B005152AB /* Contato+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Contato+CoreDataProperties.m"; path = "Modelos/Contato+CoreDataProperties.m"; sourceTree = "<group>"; };
+		29D949E21D78EE3B005152AB /* Contato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Contato.h; path = Modelos/Contato.h; sourceTree = "<group>"; };
+		29D949E31D78EE3B005152AB /* Contato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Contato.m; path = Modelos/Contato.m; sourceTree = "<group>"; };
+		29D949E71D7904D5005152AB /* NSManagedObjectContext+DAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+DAO.h"; path = "Modelos/NSManagedObjectContext+DAO.h"; sourceTree = "<group>"; };
+		29D949E81D7904D5005152AB /* NSManagedObjectContext+DAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+DAO.m"; path = "Modelos/NSManagedObjectContext+DAO.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		299657761D6FB4A7004FF11E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2927101D1D9498A5007BCAB2 /* CoreLocation.framework in Frameworks */,
+				2927101B1D949736007BCAB2 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		292710191D949736007BCAB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2927101C1D9498A5007BCAB2 /* CoreLocation.framework */,
+				2927101A1D949736007BCAB2 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		299657701D6FB4A7004FF11E = {
+			isa = PBXGroup;
+			children = (
+				2996577B1D6FB4A7004FF11E /* Contatos */,
+				2996577A1D6FB4A7004FF11E /* Products */,
+				292710191D949736007BCAB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2996577A1D6FB4A7004FF11E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				299657791D6FB4A7004FF11E /* Contatos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2996577B1D6FB4A7004FF11E /* Contatos */ = {
+			isa = PBXGroup;
+			children = (
+				299E55D41D9DD31900D1BDF4 /* Map */,
+				29D949E61D78EE4E005152AB /* Modelos */,
+				2996577F1D6FB4A7004FF11E /* AppDelegate.h */,
+				299657801D6FB4A7004FF11E /* AppDelegate.m */,
+				299657851D6FB4A7004FF11E /* MasterViewController.h */,
+				299657861D6FB4A7004FF11E /* MasterViewController.m */,
+				299657881D6FB4A7004FF11E /* DetailViewController.h */,
+				299657891D6FB4A7004FF11E /* DetailViewController.m */,
+				2996578B1D6FB4A7004FF11E /* Main.storyboard */,
+				2996578E1D6FB4A7004FF11E /* Assets.xcassets */,
+				29BF62B71D94390C00D53893 /* Contatos.xcdatamodeld */,
+				299657901D6FB4A7004FF11E /* LaunchScreen.storyboard */,
+				299657931D6FB4A7004FF11E /* Info.plist */,
+				2996577C1D6FB4A7004FF11E /* Supporting Files */,
+				296D789A1D822330009B3726 /* NewViewController.h */,
+				296D789B1D822330009B3726 /* NewViewController.m */,
+				296D789D1D822A57009B3726 /* UIViewController+CoreData.h */,
+				296D789E1D822A57009B3726 /* UIViewController+CoreData.m */,
+			);
+			path = Contatos;
+			sourceTree = "<group>";
+		};
+		2996577C1D6FB4A7004FF11E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2996577D1D6FB4A7004FF11E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		299E55D41D9DD31900D1BDF4 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				299E55D51D9DD34100D1BDF4 /* Address.h */,
+				299E55D61D9DD34100D1BDF4 /* Address.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		29D949E61D78EE4E005152AB /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				29D949E01D78EE3B005152AB /* Contato+CoreDataProperties.h */,
+				29D949E11D78EE3B005152AB /* Contato+CoreDataProperties.m */,
+				29D949E21D78EE3B005152AB /* Contato.h */,
+				29D949E31D78EE3B005152AB /* Contato.m */,
+				29D949E71D7904D5005152AB /* NSManagedObjectContext+DAO.h */,
+				29D949E81D7904D5005152AB /* NSManagedObjectContext+DAO.m */,
+			);
+			name = Modelos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		299657781D6FB4A7004FF11E /* Contatos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 299657961D6FB4A7004FF11E /* Build configuration list for PBXNativeTarget "Contatos" */;
+			buildPhases = (
+				299657751D6FB4A7004FF11E /* Sources */,
+				299657761D6FB4A7004FF11E /* Frameworks */,
+				299657771D6FB4A7004FF11E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Contatos;
+			productName = Contatos;
+			productReference = 299657791D6FB4A7004FF11E /* Contatos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		299657711D6FB4A7004FF11E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Hugo Schneider";
+				TargetAttributes = {
+					299657781D6FB4A7004FF11E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GGLW8Y2AXF;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 299657741D6FB4A7004FF11E /* Build configuration list for PBXProject "Contatos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 299657701D6FB4A7004FF11E;
+			productRefGroup = 2996577A1D6FB4A7004FF11E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				299657781D6FB4A7004FF11E /* Contatos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		299657771D6FB4A7004FF11E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299657921D6FB4A7004FF11E /* LaunchScreen.storyboard in Resources */,
+				2996578F1D6FB4A7004FF11E /* Assets.xcassets in Resources */,
+				2996578D1D6FB4A7004FF11E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		299657751D6FB4A7004FF11E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D949E91D7904D5005152AB /* NSManagedObjectContext+DAO.m in Sources */,
+				29D949E51D78EE3B005152AB /* Contato.m in Sources */,
+				299E55D71D9DD34100D1BDF4 /* Address.m in Sources */,
+				2996578A1D6FB4A7004FF11E /* DetailViewController.m in Sources */,
+				299657871D6FB4A7004FF11E /* MasterViewController.m in Sources */,
+				29BF62B91D94390C00D53893 /* Contatos.xcdatamodeld in Sources */,
+				299657811D6FB4A7004FF11E /* AppDelegate.m in Sources */,
+				296D789F1D822A57009B3726 /* UIViewController+CoreData.m in Sources */,
+				2996577E1D6FB4A7004FF11E /* main.m in Sources */,
+				296D789C1D822330009B3726 /* NewViewController.m in Sources */,
+				29D949E41D78EE3B005152AB /* Contato+CoreDataProperties.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2996578B1D6FB4A7004FF11E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2996578C1D6FB4A7004FF11E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		299657901D6FB4A7004FF11E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				299657911D6FB4A7004FF11E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		299657941D6FB4A7004FF11E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		299657951D6FB4A7004FF11E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		299657971D6FB4A7004FF11E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GGLW8Y2AXF;
+				INFOPLIST_FILE = Contatos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.iesb.Contatos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		299657981D6FB4A7004FF11E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GGLW8Y2AXF;
+				INFOPLIST_FILE = Contatos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.iesb.Contatos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		299657741D6FB4A7004FF11E /* Build configuration list for PBXProject "Contatos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299657941D6FB4A7004FF11E /* Debug */,
+				299657951D6FB4A7004FF11E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		299657961D6FB4A7004FF11E /* Build configuration list for PBXNativeTarget "Contatos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299657971D6FB4A7004FF11E /* Debug */,
+				299657981D6FB4A7004FF11E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		29BF62B71D94390C00D53893 /* Contatos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2927101E1D94AE2C007BCAB2 /* Contatos.V2.xcdatamodel */,
+				29BF62B81D94390C00D53893 /* Contatos.xcdatamodel */,
+			);
+			currentVersion = 2927101E1D94AE2C007BCAB2 /* Contatos.V2.xcdatamodel */;
+			path = Contatos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 299657711D6FB4A7004FF11E /* Project object */;
+}
